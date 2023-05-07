@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<head>
+<style>
+ body{
+    display: flex;
+    justify-content: center;
+    background-color:rgb(49, 48, 48);
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+    input{
+        border: solid 1px grey;
+        padding: 8px;
+        margin: 13px;
+        border-radius: 3px;
+         
+        width: 100%;
+    }
+    .nameinput{
+        width: 40%;
+    }
+    .namefield{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+    .container{
+        background-color: white; 
+        margin-top: 10%;
+        width: 30%;
+        height: 50%;
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+        border-radius: 5px;
+        padding:10px
+    }
+    .profile{
+        display: flex;
+        width: 100%;
+        padding:10px
+    }
+    .profile>input{
+        border: solid 1px grey;
+        padding: 5px;
+        margin: 0px;
+        color: gray;
+        background-color: white;
+        border-radius: 3px ;  
+        width: 100%;
+        cursor: pointer;
+    }
+    .signup-btn{
+        background-color:black;
+        color: white;
+      
+
+    }
+
+    .profile>input:hover{
+        color:black;
+        background-color: rgb(211, 208, 208);
+        border:solid 1px black;
+        
+    }
+
+</style>
+</head>
+<body >
+    <div class=container >
+        <P style="font-size: 20px; align-items: center; font-family: Arial, Helvetica, sans-serif;">Sign up</p>
+        <div class="namefield">
+            <input class="nameinput" type="text" placeholder="First Name">
+            <input class="nameinput" type="text" placeholder="Last Name">
+        </div>
+            
+        <input class="form-input" type="text" placeholder="Email Address">
+        <input class="form-input" type="password" placeholder="Password">
+        <input class="form-input" type="password" placeholder="Confirm Password">
+        <div class="profile">
+            <input type="button" value="Admin">
+            <input type="button" value="User">
+            <input type="button" value="Owner">
+        </div>
+
+        <input class="signup-btn" type="button" value="Sign up">
+        <a href="#" style= "padding-right: 5px; display: flex;  justify-content: flex-end;width: 100%;">Don't have an accoutn? Sign Up</a>
+    </div>
+</body>

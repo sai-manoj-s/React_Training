@@ -1,0 +1,11 @@
+
+.counter__control:hover{
+    cursor: pointer;
+}
+
+
+
+.counter__control{
+    max-width: 50%;
+    align-self: center;
+}

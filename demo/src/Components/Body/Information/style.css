@@ -1,0 +1,40 @@
+.info__field{
+    display: flex;
+  
+}
+.info__textfield{
+    border-style: none;
+    border-bottom: 1px solid ;
+    border-radius: 0%;
+    font-size: large;
+    width: 50%;
+    
+
+}
+.info__field:disabled{
+    border-style: none;
+
+    font-size: large;
+    color: black;
+    width: 50%;
+    
+}
+label{
+    color: black;
+    text-align: center;
+    margin: 18px;
+}
+.btn{
+    margin-right: 2em;
+    width: 20%;
+    color: #ffff;
+
+}
+.btn__cancel{
+    color: #000;
+    background-color: #efeeee;
+}
+
+.info_text{
+    margin-top: 15px;
+}

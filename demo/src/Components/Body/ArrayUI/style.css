@@ -1,0 +1,28 @@
+
+.array__list{
+    display: flex;
+    justify-content: center;
+    min-height: 9vh;
+   
+}
+.list-item{
+    position: relative;
+  
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgb(88, 87, 87);
+    color: #ffff;
+
+    
+
+}
+.array__btn{
+    margin: 2%;
+    background-color: rgb(2, 2, 2);
+    color: #ffff;
+    border-radius: 5px;
+}
+
+.array__input{
+    width: 90%;
+}

@@ -1,0 +1,121 @@
+
+
+    input{
+        border: solid 1px grey;
+        padding: 8px;
+        margin: 13px;
+        border-radius: 3px;
+        background-color: white;
+         
+        width: 95%;
+    }
+    .nameinput{
+        width: 100%;
+    }
+    .namefield{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+    .signin_container{
+        background-color: white; 
+        /* margin: 10% 30%; */
+        width: 90%;
+        height: 65%;
+        flex-wrap: wrap;
+
+        justify-content: center;
+        border-radius: 5px;
+        padding:10px;
+       
+        
+    }
+    .profile{
+        display: flex;
+        width: 95%;
+        padding:10px
+    }
+    .profile>input{
+        border: solid 1px grey;
+        padding: 5px;
+        margin: 0px;
+        color: gray;
+        background-color: white;
+        border-radius: 3px ;  
+        width: 90%;
+        cursor: pointer;
+    }
+    .signup-btn{
+        background-color:black;
+        color: white;
+      
+
+    }
+
+    .profile>input:hover{
+        color:black;
+        background-color: rgb(211, 208, 208);
+        border:solid 1px black;
+        
+    }
+    p{
+       font-size: 20px;
+       text-align: center;
+        color: black;
+    }
+    .btn__a{
+        padding-right: 5px;
+         display: flex; 
+         color: black;
+          justify-content: flex-end;
+          width: 100%;
+        margin-top: 0%;
+    }
+    .popup-content{
+        max-width: 30%;
+        height: 65%;
+        justify-content: center;
+        border-radius: 5%;
+    }
+
+
+    .modal {
+        font-size: 12px;
+
+        border-radius: 5px;
+      }
+      .modal > .header {
+        width: 100%;
+        border-bottom: 1px solid gray;
+        font-size: 18px;
+        text-align: center;
+        padding: 5px;
+      }
+      .modal > .content {
+        width: 100%;
+        padding: 10px 5px;
+      }
+      .modal > .actions {
+        width: 100%;
+        padding: 10px 5px;
+        margin: auto;
+        text-align: center;
+      }
+      .modal > .close {
+        cursor: pointer;
+        position: absolute;
+        display: block;
+        padding: 2px 5px;
+        line-height: 20px;
+        right: -10px;
+        top: -10px;
+        font-size: 24px;
+        background: #ffffff;
+        border-radius: 18px;
+        border: 1px solid #cfcece;
+      }
+      .btn_signIn{
+        color: #ffffff;
+        background-color: rgb(49, 49, 49);
+        border-radius: 0%;
+      }
