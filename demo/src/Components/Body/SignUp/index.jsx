@@ -18,9 +18,12 @@ function SingUp(){
                 <input className="nameinput" type="text" placeholder="First Name"/>
                 <input className="nameinput" type="text" placeholder="Last Name"/>
             </div>     
+            <div className='namefield_2'>
             <input className="form-input" type="text" placeholder="Email Address"/>
             <input className="form-input" type="password" placeholder="Password"/>
             <input className="form-input" type="password" placeholder="Confirm Password"/>
+            </div>
+           
             <div className="profile">
                 <input type="button" value="Admin"/>
                 <input type="button" value="User"/>
